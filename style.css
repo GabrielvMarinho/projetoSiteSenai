@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vw;
+    background-color: #e7e7e7;
+}
+.bodyPrincipal{
+    padding-inline: 10vw;
+    padding-block: 3vw;
+    background-color: #b9b9b9;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vw;
+    margin-block: 2vw;
+    background-color: #e7e7e7;
+}
+.imagemContainer, .textoNormal{
+    width: 40%;
+    margin: 5%;
+}
+.textoNormal{
+    font-size: 2vw;
+}
